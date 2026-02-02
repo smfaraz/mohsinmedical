@@ -1,0 +1,252 @@
+export const categoryProducts = [
+  {
+    id: 1,
+    name: "Digital Thermometer Pro",
+    price: 24.99,
+    originalPrice: 34.99,
+    image: "https://readdy.ai/api/search-image?query=professional%20digital%20medical%20thermometer%20with%20LCD%20display%20on%20clean%20white%20surface%20modern%20medical%20equipment%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod1&orientation=squarish",
+    category: "Medical Devices",
+    brand: "MediTech",
+    rating: 4.5,
+    reviews: 128,
+    inStock: true,
+    discount: 29
+  },
+  {
+    id: 2,
+    name: "Blood Pressure Monitor Automatic",
+    price: 89.99,
+    originalPrice: 119.99,
+    image: "https://readdy.ai/api/search-image?query=automatic%20blood%20pressure%20monitor%20with%20digital%20display%20medical%20device%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod2&orientation=squarish",
+    category: "Medical Devices",
+    brand: "HealthCare Plus",
+    rating: 4.8,
+    reviews: 256,
+    inStock: true,
+    discount: 25
+  },
+  {
+    id: 3,
+    name: "Surgical Gloves Latex Free Box",
+    price: 15.99,
+    image: "https://readdy.ai/api/search-image?query=box%20of%20latex%20free%20medical%20surgical%20gloves%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod3&orientation=squarish",
+    category: "PPE",
+    brand: "SafeGuard",
+    rating: 4.3,
+    reviews: 89,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 4,
+    name: "Professional Stethoscope Cardiology",
+    price: 149.99,
+    image: "https://readdy.ai/api/search-image?query=professional%20cardiology%20stethoscope%20medical%20instrument%20on%20clean%20white%20surface%20elegant%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod4&orientation=squarish",
+    category: "Medical Devices",
+    brand: "MediTech",
+    rating: 4.9,
+    reviews: 342,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 5,
+    name: "First Aid Kit Complete 200 Pieces",
+    price: 45.99,
+    originalPrice: 59.99,
+    image: "https://readdy.ai/api/search-image?query=complete%20first%20aid%20kit%20with%20medical%20supplies%20organized%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod5&orientation=squarish",
+    category: "Emergency",
+    brand: "LifeSaver",
+    rating: 4.6,
+    reviews: 178,
+    inStock: true,
+    discount: 23
+  },
+  {
+    id: 6,
+    name: "Pulse Oximeter Fingertip",
+    price: 34.99,
+    image: "https://readdy.ai/api/search-image?query=fingertip%20pulse%20oximeter%20with%20LED%20display%20medical%20device%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod6&orientation=squarish",
+    category: "Medical Devices",
+    brand: "HealthCare Plus",
+    rating: 4.4,
+    reviews: 203,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 7,
+    name: "Wheelchair Standard Folding",
+    price: 299.99,
+    image: "https://readdy.ai/api/search-image?query=standard%20folding%20medical%20wheelchair%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod7&orientation=squarish",
+    category: "Mobility",
+    brand: "MobilityPro",
+    rating: 4.7,
+    reviews: 145,
+    inStock: false,
+    discount: 0
+  },
+  {
+    id: 8,
+    name: "Nebulizer Machine Portable",
+    price: 79.99,
+    originalPrice: 99.99,
+    image: "https://readdy.ai/api/search-image?query=portable%20medical%20nebulizer%20machine%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod8&orientation=squarish",
+    category: "Respiratory",
+    brand: "BreathEasy",
+    rating: 4.5,
+    reviews: 167,
+    inStock: true,
+    discount: 20
+  },
+  {
+    id: 9,
+    name: "N95 Face Masks Box of 20",
+    price: 29.99,
+    originalPrice: 39.99,
+    image: "https://readdy.ai/api/search-image?query=box%20of%20N95%20medical%20face%20masks%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod9&orientation=squarish",
+    category: "PPE",
+    brand: "SafeGuard",
+    rating: 4.6,
+    reviews: 412,
+    inStock: true,
+    discount: 25
+  },
+  {
+    id: 10,
+    name: "Infrared Forehead Thermometer",
+    price: 39.99,
+    originalPrice: 54.99,
+    image: "https://readdy.ai/api/search-image?query=infrared%20forehead%20thermometer%20medical%20device%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod10&orientation=squarish",
+    category: "Medical Devices",
+    brand: "MediTech",
+    rating: 4.7,
+    reviews: 289,
+    inStock: true,
+    discount: 27
+  },
+  {
+    id: 11,
+    name: "Glucose Monitor Kit",
+    price: 64.99,
+    image: "https://readdy.ai/api/search-image?query=blood%20glucose%20monitor%20kit%20with%20test%20strips%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod11&orientation=squarish",
+    category: "Medical Devices",
+    brand: "HealthCare Plus",
+    rating: 4.8,
+    reviews: 234,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 12,
+    name: "Medical Face Shield Pack of 10",
+    price: 19.99,
+    image: "https://readdy.ai/api/search-image?query=pack%20of%20medical%20face%20shields%20protective%20equipment%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod12&orientation=squarish",
+    category: "PPE",
+    brand: "SafeGuard",
+    rating: 4.2,
+    reviews: 156,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 13,
+    name: "Walking Cane Adjustable",
+    price: 24.99,
+    image: "https://readdy.ai/api/search-image?query=adjustable%20medical%20walking%20cane%20mobility%20aid%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod13&orientation=squarish",
+    category: "Mobility",
+    brand: "MobilityPro",
+    rating: 4.4,
+    reviews: 98,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 14,
+    name: "Oxygen Concentrator Portable",
+    price: 599.99,
+    originalPrice: 749.99,
+    image: "https://readdy.ai/api/search-image?query=portable%20oxygen%20concentrator%20medical%20device%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod14&orientation=squarish",
+    category: "Respiratory",
+    brand: "BreathEasy",
+    rating: 4.9,
+    reviews: 187,
+    inStock: true,
+    discount: 20
+  },
+  {
+    id: 15,
+    name: "Bandage Roll Sterile Pack",
+    price: 12.99,
+    image: "https://readdy.ai/api/search-image?query=sterile%20medical%20bandage%20rolls%20pack%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod15&orientation=squarish",
+    category: "Emergency",
+    brand: "LifeSaver",
+    rating: 4.3,
+    reviews: 76,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 16,
+    name: "Digital Weight Scale Medical",
+    price: 54.99,
+    originalPrice: 69.99,
+    image: "https://readdy.ai/api/search-image?query=digital%20medical%20weight%20scale%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod16&orientation=squarish",
+    category: "Medical Devices",
+    brand: "MediTech",
+    rating: 4.5,
+    reviews: 145,
+    inStock: true,
+    discount: 21
+  },
+  {
+    id: 17,
+    name: "Surgical Mask Disposable Box 50",
+    price: 14.99,
+    image: "https://readdy.ai/api/search-image?query=box%20of%20disposable%20surgical%20masks%20medical%20supplies%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod17&orientation=squarish",
+    category: "PPE",
+    brand: "SafeGuard",
+    rating: 4.4,
+    reviews: 523,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 18,
+    name: "Rollator Walker with Seat",
+    price: 189.99,
+    originalPrice: 229.99,
+    image: "https://readdy.ai/api/search-image?query=rollator%20walker%20with%20seat%20mobility%20aid%20on%20clean%20white%20surface%20professional%20product%20photography%20minimalist%20background&width=400&height=400&seq=catprod18&orientation=squarish",
+    category: "Mobility",
+    brand: "MobilityPro",
+    rating: 4.8,
+    reviews: 167,
+    inStock: true,
+    discount: 17
+  }
+];
+
+export const filterOptions = {
+  categories: [
+    { name: "Medical Devices", count: 8 },
+    { name: "PPE", count: 4 },
+    { name: "Mobility", count: 3 },
+    { name: "Respiratory", count: 2 },
+    { name: "Emergency", count: 2 }
+  ],
+  brands: [
+    { name: "MediTech", count: 4 },
+    { name: "HealthCare Plus", count: 3 },
+    { name: "SafeGuard", count: 4 },
+    { name: "MobilityPro", count: 3 },
+    { name: "BreathEasy", count: 2 },
+    { name: "LifeSaver", count: 2 }
+  ],
+  priceRanges: [
+    { label: "Under $25", min: 0, max: 25 },
+    { label: "$25 - $50", min: 25, max: 50 },
+    { label: "$50 - $100", min: 50, max: 100 },
+    { label: "$100 - $200", min: 100, max: 200 },
+    { label: "Over $200", min: 200, max: 999999 }
+  ]
+};
